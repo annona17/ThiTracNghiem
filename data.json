@@ -1,0 +1,214 @@
+[
+    {
+        "type": "true_false",
+      "question": "1. JavaScript là ngôn ngữ lập trình phía máy chủ.",
+      "answer": false
+    },
+    {
+        "type": "true_false",
+      "question": "2. HTML là viết tắt của Hyper Text Markup Language.",
+      "answer": true
+    },
+    {
+        "type": "true_false",
+      "question": "3. CSS là viết tắt của Creative Style Sheet.",
+      "answer": false
+    },
+    {
+        "type": "true_false",
+      "question": "4. React là một thư viện JavaScript để xây dựng giao diện người dùng.",
+      "answer": true
+    },
+    {
+        "type": "true_false",
+      "question": "5. SQL là ngôn ngữ dùng để tương tác với cơ sở dữ liệu.",
+      "answer": true
+    },
+    {
+        "type": "true_false",
+      "question": "6. HTTP là viết tắt của Hyper Transfer Text Protocol.",
+      "answer": false
+    },
+    {
+        "type": "true_false",
+      "question": "7. Python là một ngôn ngữ lập trình được sử dụng phổ biến trong lĩnh vực trí tuệ nhân tạo.",
+      "answer": true
+    },
+    {
+        "type": "true_false",
+      "question": "8. Angular là một framework JavaScript được phát triển bởi Facebook.",
+      "answer": false
+    },
+    {
+        "type": "true_false",
+      "question": "9. Docker là một công cụ được sử dụng để quản lý các container.",
+      "answer": true
+    },
+    {
+        "type": "true_false",
+      "question": "10. JSON là viết tắt của JavaScript Object Notation.",
+      "answer": true
+    },
+    {
+        "type": "multiple_choice",
+        "question": "11. Đâu là một loại dữ liệu kiểu string?",
+        "options": ["a) Integer", "b) Float", "c) String", "d) Boolean"],
+        "answer": "c) String"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "12. React được phát triển bởi công ty nào?",
+        "options": ["a) Facebook", "b) Google", "c) Microsoft", "d) Apple"],
+        "answer": "a) Facebook"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "13. SQL có nghĩa là gì?",
+        "options": ["a) Structured Query Language", "b) Simple Query Language", "c) System Query Language", "d) Structured Question Language"],
+        "answer": "a) Structured Query Language"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "14. HTML là ngôn ngữ đánh dấu cho việc gì?",
+        "options": ["a) Phát triển ứng dụng di động", "b) Phát triển trang web", "c) Phát triển ứng dụng máy tính", "d) Phát triển game"],
+        "answer": "b) Phát triển trang web"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "15. Python được tạo ra vào năm nào?",
+        "options": ["a) 1991", "b) 2000", "c) 1985", "d) 2010"],
+        "answer": "a) 1991"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "16. Angular là một framework của ngôn ngữ lập trình nào?",
+        "options": ["a) JavaScript", "b) Python", "c) Java", "d) Ruby"],
+        "answer": "a) JavaScript"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "17. Trong Docker, container được tạo ra từ đâu?",
+        "options": ["a) Images", "b) Scripts", "c) Configurations", "d) Libraries"],
+        "answer": "a) Images"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "18. JSON có thể đứng với cụm từ nào sau đây?",
+        "options": ["a) Java Script Object Notation", "b) JavaScript Object Name", "c) JavaScript Object Notion", "d) JavaScript Oriented Notation"],
+        "answer": "a) Java Script Object Notation"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "19. Câu lệnh nào dưới đây là đúng khi sử dụng để khai báo một biến trong JavaScript?",
+        "options": ["a) var myVariable = 10;", "b) myVariable = 10;", "c) variable myVariable = 10;", "d) int myVariable = 10;"],
+        "answer": "a) var myVariable = 10;"
+    },
+    {
+        "type": "multiple_choice",
+        "question": "20. Những công cụ nào sau đây là một phần của Adobe Creative Suite?",
+        "options": ["a) Photoshop", "b) Illustrator", "c) Premiere Pro", "d) Microsoft Word"],
+        "answer": "a) Photoshop, b) Illustrator, c) Premiere Pro"
+    }, 
+
+    {
+        "type": "multiple_choice_multiple_answer",
+        "question": "21. Những ngôn ngữ lập trình nào sau đây là đa năng và có thể sử dụng cho nhiều mục đích?",
+        "options": ["a) Python", "b) C++", "c) Java", "d) Assembly"],
+        "answer": ["a) Python", "c) Java"]
+    },
+    {
+        "type": "multiple_choice_multiple_answer",
+        "question": "22. Các phần tử nào sau đây là các phần tử HTML thường được sử dụng để tạo các biểu mẫu web?",
+        "options": ["a) form", "b) input", "c) table", "d) div"],
+        "answer": ["a) form", "b) input"]
+    },
+    {
+        "type": "multiple_choice_multiple_answer",
+        "question": "23. Các tính năng nào sau đây thường được tìm thấy trong một ứng dụng xã hội?",
+        "options": ["a) Tạo hồ sơ cá nhân", "b) Gửi tin nhắn", "c) Chia sẻ ảnh", "d) Tìm kiếm Google"],
+        "answer": ["a) Tạo hồ sơ cá nhân", "b) Gửi tin nhắn", "c) Chia sẻ ảnh"]
+    },
+    {
+        "type": "multiple_choice_multiple_answer",
+        "question": "24. Những framework nào sau đây phổ biến trong phát triển web?",
+        "options": ["a) Angular", "b) React", "c) Vue.js", "d) Django"],
+        "answer": ["a) Angular", "b) React", "c) Vue.js"]
+    },
+    {
+        "type": "multiple_choice_multiple_answer",
+        "question": "25. Những phần tử nào sau đây thường được sử dụng để thiết kế giao diện người dùng?",
+        "options": ["a) Buttons", "b) Text Fields", "c) Dropdown Menus", "d) Databases"],
+        "answer": ["a) Buttons", "b) Text Fields", "c) Dropdown Menus"]
+    },
+    {
+        "type": "multiple_choice_multiple_answer",
+        "question": "26. Các công nghệ nào sau đây thường được sử dụng để xây dựng ứng dụng di động?",
+        "options": ["a) Swift", "b) Kotlin", "c) Python", "d) C#"],
+        "answer": ["a) Swift", "b) Kotlin", "d) C#"]
+    },
+    {
+        "type": "multiple_choice_multiple_answer",
+        "question": "27. Những khía cạnh nào sau đây cần được xem xét khi phát triển một ứng dụng di động?",
+        "options": ["a) Hiệu suất", "b) Bảo mật", "c) Tương thích thiết bị", "d) Kích thước ổ đĩa cứng"],
+        "answer": ["a) Hiệu suất", "b) Bảo mật", "c) Tương thích thiết bị"]
+    },
+    {
+        "type": "multiple_choice_multiple_answer",
+        "question": "28. Các bước nào sau đây là quan trọng trong quá trình phát triển phần mềm?",
+        "options": ["a) Phân tích yêu cầu", "b) Thiết kế", "c) Kiểm thử", "d) Sử dụng máy tính"],
+        "answer": ["a) Phân tích yêu cầu", "b) Thiết kế", "c) Kiểm thử"]
+    },
+    {
+        "type": "multiple_choice_multiple_answer",
+        "question": "29. Các dạng kiến trúc nào sau đây được sử dụng trong việc phát triển phần mềm?",
+        "options": ["a) Kiến trúc mô-đun", "b) Kiến trúc hệ thống", "c) Kiến trúc MVC", "d) Kiến trúc Cơ bản"],
+        "answer": ["a) Kiến trúc mô-đun", "b) Kiến trúc hệ thống", "c) Kiến trúc MVC"]
+    },
+    {
+        "type": "multiple_choice_multiple_answer",
+        "question": "30. Những công cụ nào sau đây là một phần của Adobe Creative Suite?",
+        "options": ["a) Photoshop", "b) Illustrator", "c) Premiere Pro", "d) Microsoft Word"],
+        "answer": ["a) Photoshop", "b) Illustrator", "c) Premiere Pro"]
+    },
+    {
+        "type": "essay",
+        "question": "31. Giải thích ý nghĩa và ứng dụng của ngôn ngữ lập trình Python trong lĩnh vực khoa học dữ liệu."
+    },
+    {
+        "type": "essay",
+        "question": "32. Mô tả cách thức hoạt động của một hệ thống quản lý cơ sở dữ liệu quan hệ (RDBMS)."
+    },
+    {
+        "type": "essay",
+        "question": "33. Hãy so sánh và đối chiếu giữa cấu trúc dữ liệu hàng đợi (Queue) và cấu trúc dữ liệu ngăn xếp (Stack)."
+    },
+    {
+        "type": "essay",
+        "question": "34. Tại sao React được xem là một lựa chọn phổ biến trong phát triển ứng dụng web hiện đại? Hãy giải thích."
+    },
+    {
+        "type": "essay",
+        "question": "35. Phân biệt giữa biến cục bộ và biến toàn cục trong ngôn ngữ lập trình JavaScript."
+    },
+    {
+        "type": "essay",
+        "question": "36. Mô tả cách thức hoạt động của một mạng nơ-ron nhân tạo đơn giản."
+    },
+    {
+        "type": "essay",
+        "question": "37. Tại sao Agile được xem là một phương pháp phát triển phần mềm linh hoạt và hiệu quả? Hãy đưa ra ví dụ."
+    },
+    {
+        "type": "essay",
+        "question": "38. Mô tả cách thức hoạt động của một hệ thống tìm kiếm trên website."
+    },
+    {
+        "type": "essay",
+        "question": "39. Hãy giải thích cách sử dụng Git trong quản lý mã nguồn và quy trình làm việc nhóm."
+    }, 
+    {
+        "type": "essay",
+        "question": "40. Hãy mô tả cách hoạt động của thuật toán sắp xếp nổi bọt."
+    }
+  ]
+  

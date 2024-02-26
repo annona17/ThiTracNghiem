@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thi trắc nghiệm</title>
+  <style>
+    /* Style cho form */
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    /* Style cho input fields */
+    input[type="text"], input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+    /* Style cho button */
+    button {
+      background-color: #4c90af;
+      color: white;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px ;
+      width: 50%;
+    }
+    button:hover {
+      background-color: #14439b;
+    }
+    #quizContainer {
+      max-width: 650px;
+      margin: 20px auto; /* Căn giữa */
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      text-align: center; /* Căn giữa nút button */
+    }
+    /* Style cho câu hỏi và lựa chọn */
+    .question {
+      text-align: left;
+      margin-bottom: 20px;
+      margin-left: 30px;
+    }
+    .option {
+        text-align: left;
+      margin-left: 45px;
+    }
+    h2 {
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <form id="studentForm">
+    <h2>Nhập thông tin sinh viên</h2>
+    <input type="text" id="name" placeholder="Họ và tên" required>
+    <input type="date" id="dob" required>
+    <input type="text" id="studentId" placeholder="Mã sinh viên" required>
+    <input type="text" id="class" placeholder="Lớp" required>
+    <button type="submit">Bắt đầu thi</button>
+  </form>
+
+  <div id="quizContainer" style="display: none;">
+    <div id="quiz">
+      <h2>Bộ câu hỏi demo</h2>
+      <!-- Đây là nơi hiển thị bộ câu hỏi -->
+    </div>
+    <button type="button" id="submitBtn" style="display: none;">Submit</button>
+  </div>
+  <div id="result"></div>
+  <script src="q.js"></script>
+</body>
+</html>
